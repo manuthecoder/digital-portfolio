@@ -1,0 +1,24 @@
+body {
+  color: #39ff14;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0) 50%,
+    rgba(0, 0, 0, 0.2) 70%,
+    rgba(0, 0, 0, 0.6)
+  );
+  font-family: "Source Code Pro", monospace;
+  background-size: 100% 0.3rem;
+  background-color: #031e11;
+  justify-content: center;
+  height: 100vh;
+  color: #39ff14;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  flex-direction: column;
+}
+
+*:not(.material-symbols-rounded) {
+  font-family: "Space Grotesk", sans-serif;
+}
