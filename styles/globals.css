@@ -1,24 +1,25 @@
+html,
 body {
-  color: #39ff14;
+  margin: 0;
   background: linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0),
     rgba(255, 255, 255, 0) 50%,
-    rgba(0, 0, 0, 0.2) 70%,
-    rgba(0, 0, 0, 0.6)
+    rgba(0, 0, 0, 0.5) 70%,
+    rgba(0, 0, 0, 0.5)
   );
-  font-family: "Source Code Pro", monospace;
+  background-color: #02353a !important;
   background-size: 100% 0.3rem;
-  background-color: #031e11;
-  justify-content: center;
-  height: 100vh;
-  color: #39ff14;
-  display: flex;
-  align-items: center;
-  user-select: none;
-  flex-direction: column;
+
+  color: #fff;
 }
 
 *:not(.material-symbols-rounded) {
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Space Grotesk", sans-serif !important;
+}
+.MuiTouchRipple-rippleVisible {
+  animation-duration: 0.25s !important;
+}
+.MuiTouchRipple-child {
+  filter: opacity(0.2) !important;
 }
