@@ -8,6 +8,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import * as colors from "@mui/material/colors";
 import { About } from "../components/About";
 import { Classes } from "../components/Classes";
+import Link from "next/link";
 
 function App({ Component, pageProps }) {
   const theme = createTheme({
@@ -47,7 +48,9 @@ function App({ Component, pageProps }) {
         elevation={0}
       >
         <Toolbar>
-          <Button>Manu&apos;s digital portfolio</Button>
+          <Link href="/">
+            <Button>Manu&apos;s digital portfolio</Button>
+          </Link>
           <Box sx={{ flexGrow: 1 }} />
           <About />
           <Classes />

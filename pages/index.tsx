@@ -14,34 +14,29 @@ export default function Home() {
       <Head>
         <title>Home</title>
       </Head>
-      <Box sx={{ p: 3 }}>
+      <Box sx={{ p: { xs: 3, sm: 7 } }}>
         <Box
           sx={{
             "@keyframes this": {
               "0%": {
-                background: cyan["900"],
-                boxShadow: "0 0 0 40px " + cyan["900"] + " inset",
-              },
-              "49%": {
-                background: cyan["900"],
+                boxShadow: "0 0 30px " + cyan["900"],
               },
               "50%": {
-                background: "transparent",
-                boxShadow: "0 0 0 40px " + cyan["900"] + " inset",
+                boxShadow: "0 0 50px " + cyan["900"],
               },
               "100%": {
-                background: "transparent",
-                boxShadow: "0 0 0 0px " + cyan["900"] + " inset",
+                boxShadow: "0 0 30px " + cyan["900"],
               },
             },
             p: 5,
-            py: 10,
+            mt: 2,
+            py: 8,
             textAlign: "center",
             backdropFilter: "blur(10px)",
             borderRadius: 5,
             border: "2px solid " + cyan["A700"],
             // transition: "box-shadow .5s",
-            animation: "this .5s forwards",
+            animation: "this 5s infinite",
             color: cyan["A400"],
           }}
         >
