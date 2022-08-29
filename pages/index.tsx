@@ -61,9 +61,9 @@ export default function Home() {
               url: "https://smartlist.tech",
             },
             {
-              name: "Pollcast (Coming soon)",
+              name: "Popvote (Coming soon)",
               description: "Create and share polls with your class/workplace",
-              url: "https://smartlist.tech",
+              url: "https://popvote.ml",
             },
             {
               name: "Classpage (Coming soon)",
