@@ -53,6 +53,10 @@ export default function Home() {
             <b>Weaknesses: What subjects are the most challenging for you? What sills do you hope to improve on?</b>
             <br />I am not that great at writing. I hope to improve on writing essays 
           </Typography>
+          <Typography sx={{ mb: 2, mt: 1 }}>
+            <b>Goals / Academic risks: What are some academic goals you can set for yourself? How will achieving these goals help you in the future. What academic risk are you willing to take?</b>
+            <br />I will take a risk when it comes to reading novels, doing essays, and more to get good grades. These academic goals will help me in the future. I am willing to take a year, probably
+          </Typography>
         </Box>
       </Box>
     </>
