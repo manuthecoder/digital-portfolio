@@ -10,6 +10,7 @@ import { cyan, green } from "@mui/material/colors";
 
 export default function Projects() {
 return (
+          <Grid container spacing={3}>
 <Typography variant="h5" sx={{ fontWeight: "600", mt: 5 }}>
           Quick links: My websites & apps
         </Typography>
