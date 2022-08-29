@@ -7,6 +7,7 @@ import CardActionArea from "@mui/material/CardActionArea";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import { cyan, green } from "@mui/material/colors";
+import Projects from "../components/projects";
 
 export default function Home() {
   return (
