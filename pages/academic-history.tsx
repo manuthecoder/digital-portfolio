@@ -46,9 +46,8 @@ export default function Home() {
         </Box>
         <Box sx={{ maxWidth: "800px", pt: 4 }}>
           <Typography sx={{ mb: 2, mt: 1 }}>
-            <b>Tell?</b>
-            <br />I was born in India. I love the food there, because it is very
-            unique and delicious.
+            <b>Strengths: What are your best subjects? What are your strongest skills? Describe an academic moment in which you were proud of yourself</b>
+            <br />I am good at Science, and my strongest skills are technology. I was proud of myself when I once scored 100% on a summative assessment 
           </Typography>
         </Box>
       </Box>
